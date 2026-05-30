@@ -15,8 +15,8 @@ Fiber distrubusjons switch, som har et par fiberkabler koblet i seg i en haug, o
   columns: (1fr, 1fr),
 // Calls to the figure() function have to be wrapped in [] if one wants to attach a lable
 //https://github.com/typst/typst/discussions/4680
-  [#figure(image("images/due.jpg", width: 50%), caption: [Figur Tekst 1]) <fig-subim1>],
-  [#figure(image("images/due.jpg", width: 50%), caption: [Figur Tekst 2]) <fig-subim2>] ,
+  [#figure(image("images/due.jpg", width: 90%), caption: [Figur Tekst 1]) <fig-subim1>],
+  [#figure(image("images/due.jpg", width: 90%), caption: [Figur Tekst 2]) <fig-subim2>] ,
 ),   caption: [En figurtekst som gjelder for begge bildene både a og b.]
 )<fig-image2>
 
